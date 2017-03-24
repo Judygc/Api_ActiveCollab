@@ -2,8 +2,22 @@
 Prueba de la api de conexión con ActiveCollab
 
 
-Inicie la consola de windows en la carpeta donde desee clonar el proyecto.
+Inicie la consola de windows en la carpeta donde desee clonar el proyecto, para ello en el cuadro de dirección de carpetas escriba cmd.
 
 Escriba el siguiente comando 
 
-git clone git://github.com/Judygc/Api_ActiveCollab.git
+git clone https://github.com/Judygc/Api_ActiveCollab.git
+
+Entrar en esa nueva carpeta, se puede hacer desde el cmd usando cd más la dirección de la carpeta que hemos creado, añadiendo /Prueba_Api.
+Ejemplo: cd C:\Users\JUDIT\Desktop\Prueba_Api
+
+
+Ejecute el comando:
+  npm install
+ esto nos intalara todas las librerias necesarias para funcionar el programa.
+ 
+ Ahora escriba: 
+  npm start
+ el programa ya se esta ejecutando, para poder verlo en el navegador entre en la diección http://localhost:3000/
+ 
+ 
